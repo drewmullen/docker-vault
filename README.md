@@ -1,3 +1,9 @@
+# do not use this anymore
+
+i only published this because [hashi wasnt publishing an official image](https://github.com/hashicorp/docker-vault/pull/155)
+
+you can now use the [official enterprise docker container](https://hub.docker.com/r/hashicorp/vault-enterprise)
+
 ## Enterprise Trial
 
 To build a container with the enterprise trial binary, pass `--build-arg ENTERPRISE_TRIAL=true`. The service will expire after 30m so please be aware.
